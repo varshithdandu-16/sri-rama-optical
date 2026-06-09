@@ -1,0 +1,102 @@
+/* =========================
+   GOOGLE FONT
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* =========================
+   CSS RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =========================
+   ROOT VARIABLES
+========================= */
+
+:root {
+  --color-primary: #0F172A;
+  --color-secondary: #FFFFFF;
+  --color-accent: #D4AF37;
+
+  --color-success: #22C55E;
+  --color-error: #EF4444;
+
+  --color-background: #FFFFFF;
+  --color-section: #F8FAFC;
+
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #64748B;
+
+  --radius-card: 16px;
+  --radius-button: 12px;
+  --radius-image: 16px;
+
+  --container-width: 1280px;
+}
+
+/* =========================
+   BASE STYLES
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   LISTS
+========================= */
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* =========================
+   IMAGES
+========================= */
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
